@@ -15,7 +15,7 @@ python data.py
 
 # Step 4: CycleGAN 모델을 사용한 test.py 실행
 echo "Running test.py with CycleGAN model..."
-python test.py --dataroot /home/medisc/Dyskinesia-Report/cyclegan/datasets/processed_videos --name mydata_1024 --model cycle_gan --num_test 4200
+python test.py --dataroot /home/medisc/Dyskinesia-Report/cyclegan/datasets/processed_videos --name mydata_1024 --model cycle_gan --num_test 4200 --direction BtoA
 
 # Step 5: data_final.py 실행
 echo "Running data_final.py..."
